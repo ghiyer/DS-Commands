@@ -1,0 +1,7 @@
+1. cd to respective dir
+2. initialize git  $git init
+3. configure remote username and email $git config user.name <name>
+          $git config user.email <emial>
+4. check status to see if it is staged $git status
+5. commit the staged file $git commit -m <some msg>
+6. push the changes $git push
