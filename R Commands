@@ -1,1 +1,47 @@
+# # getwd() - Get Working Directory
+# # setwd("C:/myFolder")     
+# 
+# # x<-c(1,3,5)
+# # y<-c(3,2,10)
+# 
+# # cbind(x,y)  Column bind
+# # x  y
+# # [1,] 1  3
+# # [2,] 3  2
+# # [3,] 5 10
+# # x<-c(1,3,5)
+# # y<-c(3,2,10)
+# 
+# # rbind(x,y)  Row bind
+# # x  y
+# # [1,] 1  3  5
+# # [2,] 3  2  10
+# # 
+# 
+# #  z<-1:10
+# #  z
+# # [1]  1  2  3  4  5  6  7  8  9 10
+# #  z[z<=6]<-0
+# #  z
+# # [1]  0  0  0  0  0  0  7  8  9 10
+# 
+#  dat = read.csv("hw1_data.csv", header = TRUE)
+#  nrow(dat)
+# [1] 153
+#  ncol(dat)
+# [1] 6
+#  dat = read.csv("hw1_data.csv", header = TRUE)[1:5,1:2] - reads fiest 5 rows and first 2 cols
+#  dat
+# Ozone Solar.R
+# 1      41     190
+# 2      36     118
+# 3      12     149
+# 4      18     313
+# 5      NA      NA
 
+# dat = read.csv("hw1_data.csv", header = TRUE, skip=151) - skips first 151 rows
+
+# sum(is.na(dat$Ozone)) - no. of NA values
+# [1] 37
+#  mean(dat$Ozone, na.rm=T) - gets mean of all non NA values
+# [1] 42.12931
