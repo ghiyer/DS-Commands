@@ -45,3 +45,8 @@
 # [1] 37
 #  mean(dat$Ozone, na.rm=T) - gets mean of all non NA values
 # [1] 42.12931
+
+
+ # dat = read.csv("hw1_data.csv", header = TRUE)
+ # good <-complete.cases(dat) - add logical vector good to remove the NA values
+ # dat[good,] -- all non NA values
