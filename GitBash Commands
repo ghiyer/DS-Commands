@@ -2,6 +2,8 @@
 2. initialize git  $git init
 3. configure remote username and email $git config user.name <name>
           $git config user.email <emial>
-4. check status to see if it is staged $git status
-5. commit the staged file $git commit -m <some msg>
-6. push the changes $git push
+4. add file to be committed   git add <filename> 
+5. check status to see if it is staged $git status
+6. commit the staged file $git commit -m <some msg>
+7. push the changes $git push origin master
+          $git push origin master -f    ---- f is for force
