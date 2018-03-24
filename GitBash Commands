@@ -1,5 +1,6 @@
 1. cd to respective dir
 2. initialize git  $git init
+          Note - to remove existing git repo use - "rm -rf .git"
 3. configure remote username and email $git config user.name <name>
           $git config user.email <emial>
 4. add file to be committed   git add <filename> 
